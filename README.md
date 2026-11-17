@@ -1,4 +1,4 @@
-# water-quality-machine-learning
+# A global coral bleaching-machine learning
 This project is about machine learning 
 ปัจจัยด้านความร้อนและสภาพแวดล้อมของแนวปะการังใช้ทำนายระดับการฟอกขาวได้แค่ไหน และนอกจากความร้อนแล้ว อะไรช่วยให้ปะการังรอด
 
