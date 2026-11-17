@@ -1,0 +1,32 @@
+attribute,role,description,dtype,missing_%,example
+sample_id,meta,Survey event ID (do not use as feature),int64,0.0,10323999
+site_id,meta,"Site ID (use for GroupKFold / group split, not as feature)",int64,0.0,2069
+country_name,meta,Country (for subsetting),string,0.0,Chile
+data_source,meta,Source dataset; measurement method differs — consider as feature or filter,string,0.0,Donner
+date,meta,Survey date,datetime64[ns],0.0,1980-06-15 00:00:00
+is_sea,meta,True if Southeast Asian country,bool,0.0,False
+is_thailand,meta,True if Thailand,boolean,0.0,False
+tsa_dhw,feature,"Degree heating weeks (TSA-based), sum of previous 12 weeks with TSA ≥ 1 °C [weeks]",float64,0.3,1.16
+ssta_dhw,feature,Degree heating weeks (SSTA-based) [weeks],float64,0.3,8.34
+tsa,feature,Thermal stress anomaly: weekly SST minus max weekly climatological SST [°C],float64,0.3,0.8
+ssta,feature,Weekly SST minus weekly climatological SST [°C],float64,0.3,1.33
+ssta_frequency,feature,Weeks in previous 52 with SSTA ≥ 1 °C [count],float64,0.3,11.0
+tsa_frequency,feature,Weeks in previous 52 with TSA ≥ 1 °C [count],float64,0.3,1.0
+climsst,feature,Climatological (normal) SST of the site [°C],float64,18.2,21.5
+temperature_c,feature,SST at time of survey [°C],float64,0.3,30.120000000000005
+temperature_maximum,feature,Maximum SST [°C],float64,0.2,26.980000000000018
+turbidity,feature,"Kd490 within 100-km buffer, higher = more turbid [m^-1]",float64,0.0,0.0214
+depth_m,feature,Depth of survey [m],float64,7.2,10.0
+distance_to_shore,feature,Distance to nearest land [m],float64,0.0,1579.03
+exposure,feature,Wave exposure: Exposed / Sheltered / Sometimes [category],string,0.0,Exposed
+cyclone_frequency,feature,Number of cyclones 1964–2014 [count],float64,0.0,50.08
+windspeed,feature,Wind speed [units as provided; check],float64,0.2,5.0
+latitude_degrees,feature,Latitude [°N],float64,0.0,-27.1667
+longitude_degrees,feature,Longitude [°E],float64,0.0,-109.3333
+ocean_name,feature,Ocean [category],string,0.0,Pacific
+realm_name,feature,MEOW realm [category],string,0.0,Eastern Indo-Pacific
+date_year,feature,Survey year,int64,0.0,1980
+date_month,feature,Survey month,int64,0.0,6
+percent_bleaching,target,TARGET (regression): % corals bleached,float64,0.0,75.0
+bleach_class,target,TARGET (classification): none (0) / mild (0–30] / severe (>30),category,0.0,severe
+bleached,target,TARGET (binary): 1 if any bleaching,int64,0.0,1
