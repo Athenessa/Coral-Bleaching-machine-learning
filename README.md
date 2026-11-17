@@ -10,21 +10,23 @@ Notebook นี้ทำ: โหลดข้อมูล → ตรวจคุ�
 
 ## Decision Tree
 ### SEA
-
+- Accuracy: 0.7057 (70.57%)   
+- Macro Avg (Precision / Recall / F1): 0.54 / 0.58 / 0.56   
+- Severe Class F1-Score: 0.35 
 
 ### GLOBAL
-
+- Accuracy: 0.7492 (74.92%)
+- Macro Avg (Precision / Recall / F1): 0.73 / 0.72 / 0.73
+- Severe Class F1-Score: 0.65 
 
 ## Random Forest
 ### SEA
-- Accuracy : 0.81
-- F1-score : 0.69
-- Precision : 0.72
-- Recall : 0.67
+- Accuracy: 0.7669 (76.69%)
+- Macro Avg (Precision / Recall / F1): 0.65 / 0.64 / 0.64
+- Severe Class F1-Score: 0.49
 
 ### GLOBAL
-- Accuracy : 0.86
-- F1-score : 0.88
-- Precision : 0.90
-- Recall : 0.87
+- Accuracy: 0.7981 (79.81%)
+- Macro Avg (Precision / Recall / F1): 0.79 / 0.76 / 0.77
+- Severe Class F1-Score: 0.69
 
