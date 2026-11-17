@@ -11,29 +11,10 @@ Notebook นี้ทำ: โหลดข้อมูล → ตรวจคุ�
 ## Decision Tree
 ### SEA
 
-            precision    recall  f1-score   support
-
-        mild       0.52      0.52      0.52       233
-        none       0.81      0.80      0.81       529
-     severe       0.29      0.43      0.35        23
-    accuracy                           0.71       785
-    
-   macro avg       0.54      0.58      0.56       785
-weighted avg       0.71      0.71      0.71       785
-
 
 ### GLOBAL
-               precision    recall  f1-score   support
 
-        mild       0.75      0.73      0.74      1573
-        none       0.78      0.80      0.79      1481
-      severe       0.66      0.64      0.65       447
 
-    accuracy                           0.75      3501
-   macro avg       0.73      0.72      0.73      3501
-weighted avg       0.75      0.75      0.75      3501
-
-Accuracy: 0.7492
 ## Random Forest
 ### SEA
 - Accuracy : 0.81
