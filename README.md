@@ -1,5 +1,5 @@
 # water-quality-machine-learning
-This project is about water quality machine learning 
+This project is about machine learning 
 ปัจจัยด้านความร้อนและสภาพแวดล้อมของแนวปะการังใช้ทำนายระดับการฟอกขาวได้แค่ไหน และนอกจากความร้อนแล้ว อะไรช่วยให้ปะการังรอด
 
 Notebook นี้ทำ: โหลดข้อมูล → ตรวจคุณภาพ → clean → ตรวจ target → เลือก feature → export ไฟล์สะอาด + data dictionary ให้ส่วน modeling
